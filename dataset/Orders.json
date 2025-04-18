@@ -1,0 +1,114 @@
+{
+	"name": "Orders",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Row ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Order Priority",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Discount",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Unit Price",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Shipping Cost",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Customer ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Customer Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Ship Mode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Customer Segment",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product Category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product Sub-Category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product Container",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product Base Margin",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Region",
+				"type": "nvarchar"
+			},
+			{
+				"name": "State or Province",
+				"type": "nvarchar"
+			},
+			{
+				"name": "City",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Postal Code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Order Date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Ship Date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Profit",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Quantity ordered new",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Sales",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Order ID",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Orders1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

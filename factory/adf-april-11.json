@@ -1,0 +1,21 @@
+{
+	"name": "adf-april-11",
+	"properties": {
+		"globalParameters": {
+			"ApplicationID": {
+				"type": "string",
+				"value": "00000"
+			},
+			"StorageURL": {
+				"type": "string",
+				"value": "CORE.WINDOW.NET"
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "edd8dd2e-1028-4878-9ff8-01f54fd1790f",
+		"tenantId": "447d8141-8bbb-4534-8f63-020add6125d8"
+	}
+}
